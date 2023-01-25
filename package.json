@@ -1,0 +1,26 @@
+{
+  "name": "@lumjs/web-debug",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./url-hash": "./lib/url-hash.js",
+    "./elements": "./lib/elements.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.web-debug.js.git"
+  },
+  "dependencies": {
+    "@lumjs/debug": "^1.0.0",
+    "@lumjs/web-url-hash": "^1.0.0"
+  },
+  "scripts":
+  {
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
